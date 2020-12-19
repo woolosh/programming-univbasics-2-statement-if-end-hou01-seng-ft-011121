@@ -1,8 +1,9 @@
-outside_weather = 5
-if outside_weather < 5
-  puts "Wear a jacket!"
-if outside_weather > 5
-  puts "It is too warm for a jacket."
+current_time = Time.now 
+
+current_time = current_time.to_i 
+
+if current_time % 2 == 0 
+  puts "Even!"
 else
-  puts "The weather is perfect!"
+  puts "Odd!"
 end
