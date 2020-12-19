@@ -1,3 +1,3 @@
-Code before if...end
-code inside
-code after if...end
+puts "Code before if...end"
+puts "code inside"
+puts "Code after if...end"
